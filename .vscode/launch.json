@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "B² PolyCrystal — интерфейс", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal", "justMyCode": true},
+    {"name": "Пакетный эксперимент", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_batch.py", "cwd": "${workspaceFolder}", "args": ["data", "--crop-manifest", "data/crop_manifest.json", "--output", "results/repeat"], "console": "integratedTerminal"}
+  ]
+}
